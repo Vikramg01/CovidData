@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  background-color: whitesmoke;
+  margin-left: 17%;
+  padding-left: 11%;
+}
+
+.heading h1 {
+  background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+table {
+  width: 100%;
+  height: 100vh;
+  margin: 50px 100px;
+  background-color: aliceblue;
+}
+
+table,
+th,
+td {
+  border: 2px solid rgb(40, 13, 13);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
